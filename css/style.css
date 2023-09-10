@@ -8,6 +8,10 @@ body {
   transition: ease 1500ms;
 }
 
+p {
+  padding-bottom: 15px;
+}
+
 main {
   position: absolute;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
