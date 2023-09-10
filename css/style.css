@@ -67,6 +67,10 @@ h2 {
   z-index: 5;
 }
 
+#btn-open:focus-visible {
+  outline: 3px solid white; 
+}
+
 #btn-close {
   position: absolute;
   display: block;
@@ -81,6 +85,10 @@ h2 {
   background-color: blueviolet;
   opacity: 0;
   cursor: pointer;
+}
+
+#btn-close:focus-visible {
+  outline: 3px solid black; 
 }
 
 .btn-show {
